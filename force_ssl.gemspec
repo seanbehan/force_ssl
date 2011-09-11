@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Sean Behan"]
   s.email       = ["bseanvt@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Forces SSL on every request}
+  s.description = %q{Using Rack Middleware, intercept and redirect to https protocol if not already.}
 
   s.rubyforge_project = "force_ssl"
 
