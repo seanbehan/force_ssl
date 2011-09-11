@@ -9,6 +9,7 @@ gem 'force_ssl', :git => 'git@github.com/bseanvt/force_ssl.git'
 ```
 
 In config/application.rb
+
 ```ruby
 config.middleware.use "ForceSSL"
 ```
