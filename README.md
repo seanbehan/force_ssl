@@ -11,7 +11,7 @@ gem 'force_ssl', :git => 'git@github.com:bseanvt/force_ssl.git'
 In config/environments/production.rb
 
 ```ruby
-config.middleware.use "ForceSSL"
+config.middleware.use "ForceSsl::ForceSSL"
 ```
 
 All done!
