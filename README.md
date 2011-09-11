@@ -15,3 +15,8 @@ config.middleware.use "ForceSsl::ForceSSL"
 ```
 
 All done!
+
+### Other Gems
+
+For a more thorough library checkout out
+https://github.com/tobmatth/rack-ssl-enforcer
